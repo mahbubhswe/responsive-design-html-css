@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("/img//bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.myNav {
+  background: #232;
+  padding: 30px 0px;
+  text-align: center;
+}
+.navItem {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+}
+.navItem:hover {
+  color: yellow;
+}
+
+.tableDiv {
+  display: flex;
+  place-content: center;
+  margin-top: 50px;
+}
+
+th,
+td {
+  font-size: 25px;
+  padding: 5px 12px;
+}
+.div1 {
+  width: 50%;
+  margin: auto;
+}
